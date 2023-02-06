@@ -3,14 +3,15 @@
 <head>
   <title>WEB1 - Welcome</title>
   <meta charset="utf-8">
-  <!--
-    http://127.0.0.1:5500/1.html => 1.html 응답
-    http://127.0.0.1:5500/ => index.html 응답
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2WSPNBV8XY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    http는 HyperText Transfer Protocol로서 웹페이지를 주고받기 위한 통신규약
-    127.0.0.1은 Internet Protocol Address로서 인터넷에서 사용하는 주소를 의미합니다. 
-    5500 Port는 컴퓨터에 여러 개의 서버가 동작하고 있을 때 서버를 구분하는 정보
-  -->
+    gtag('config', 'G-2WSPNBV8XY');
+    </script>
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -48,5 +49,13 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
+    <!--
+    http://127.0.0.1:5500/1.html => 1.html 응답
+    http://127.0.0.1:5500/ => index.html 응답
+
+    http는 HyperText Transfer Protocol로서 웹페이지를 주고받기 위한 통신규약
+    127.0.0.1은 Internet Protocol Address로서 인터넷에서 사용하는 주소를 의미합니다. 
+    5500 Port는 컴퓨터에 여러 개의 서버가 동작하고 있을 때 서버를 구분하는 정보
+    -->
   </body>
   </html>
